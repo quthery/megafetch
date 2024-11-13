@@ -1,13 +1,11 @@
 #include <iostream>
 #include "src/modules.h"
-#include "src/print.h"
 #include "format"
 using namespace std;
 
 int main() {
-    std::cout << cpu_info() << std::endl;
-    cout << format("\033[31m processor: {}\033[0m\n", cpu_info());
-    cout << format(" processor cores: {}\n", cores());
-    cout << format(" memory: {}\n", ram_info());
+    cout << format("\033[31m  processor: {}\033[0m\n", cpu_info());
+    cout << format("\033[32m  processor cores: {}\033[0m\n", cores());
+    cout << format("\033[35m  memory: {}\033[0m\n", ram_info());
     return 0;
 }

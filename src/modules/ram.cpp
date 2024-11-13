@@ -32,4 +32,3 @@ string ram_info() {
 
     return s_out;
 }
-
