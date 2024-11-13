@@ -1,0 +1,11 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/megafetch.dir/main.cpp.o: dyndep
+
+build CMakeFiles/megafetch.dir/src/utils/utils.cpp.o: dyndep
+
+build CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o: dyndep
+
+build CMakeFiles/megafetch.dir/src/modules/ram.cpp.o: dyndep
+
+build CMakeFiles/megafetch.dir/src/print.cpp.o: dyndep
+

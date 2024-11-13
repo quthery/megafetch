@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/main.cpp.o.modmap -o CMakeFiles/megafetch.dir/main.cpp.o -c /home/chuvacek/code/cpp/megafetch/main.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/main.cpp",
+  "output": "CMakeFiles/megafetch.dir/main.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/utils/utils.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/utils/utils.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/utils/utils.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/utils/utils.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/modules/cpuinfo.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/modules/cpuinfo.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/modules/ram.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/modules/ram.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/modules/ram.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/modules/ram.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/print.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/print.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/print.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/print.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/print.cpp.o"
+}
+]

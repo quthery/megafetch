@@ -1,0 +1,27 @@
+# ninja log v6
+213	1328	1731511466585395644	CMakeFiles/megafetch.dir/src/utils/utils.cpp.o	7800889ddbb69948
+205	213	1731511466575395703	CMakeFiles/megafetch.dir/CXX.dd	23aa00ef0a087607
+205	213	1731511466575395703	CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.modmap	23aa00ef0a087607
+2320	2422	1731511468692050169	megafetch	5e2b0b0880adb00a
+1	550	1731511410912402719	CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.ddi	12ad2b09a1820472
+10	408	1731510064477088154	CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.ddi	4521098902074fe8
+205	213	1731511466575395703	CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.modmap	23aa00ef0a087607
+3	205	1731511466375396858	CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.ddi	69849cea453bfb76
+205	213	1731511466575395703	CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.modmap	23aa00ef0a087607
+214	2319	1731511466585395644	CMakeFiles/megafetch.dir/src/modules/ram.cpp.o	6131fee71894654b
+1	652	1731511645317864099	build.ninja	66e31cf40c4277bd
+141	1921	1731510935497543206	CMakeFiles/megafetch.dir/main.cpp.o	aced7b7ab0dae1fe
+205	213	1731511466575395703	CMakeFiles/megafetch.dir/main.cpp.o.modmap	23aa00ef0a087607
+205	213	1731511466575395703	/home/chuvacek/code/cpp/megafetch/cmake-build-debug/CMakeFiles/megafetch.dir/CXXModules.json	23aa00ef0a087607
+457	1789	1731510064923758926	CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o	6cb751ecefdf0070
+2	135	1731510935360878826	CMakeFiles/megafetch.dir/main.cpp.o.ddi	ddf5450351cc60c0
+4	159	1731512026730146147	CMakeFiles/megafetch.dir/src/print.cpp.o.ddi	495df07796bcac41
+159	165	1731512026886812534	CMakeFiles/megafetch.dir/CXX.dd	7d7274ce497580ee
+159	165	1731512026886812534	/home/chuvacek/code/cpp/megafetch/cmake-build-debug/CMakeFiles/megafetch.dir/CXXModules.json	7d7274ce497580ee
+159	165	1731512026886812534	CMakeFiles/megafetch.dir/main.cpp.o.modmap	7d7274ce497580ee
+159	165	1731512026886812534	CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.modmap	7d7274ce497580ee
+159	165	1731512026886812534	CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.modmap	7d7274ce497580ee
+159	165	1731512026886812534	CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.modmap	7d7274ce497580ee
+159	165	1731512026886812534	CMakeFiles/megafetch.dir/src/print.cpp.o.modmap	7d7274ce497580ee
+165	2642	1731512026890145861	CMakeFiles/megafetch.dir/src/print.cpp.o	213b9ddfbca0925
+2642	2770	1731512029366808130	megafetch	a9b8833d7548c4aa

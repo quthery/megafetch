@@ -1,0 +1,3 @@
+/home/chuvacek/code/cpp/megafetch/cmake-build-debug/CMakeFiles/megafetch.dir
+/home/chuvacek/code/cpp/megafetch/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chuvacek/code/cpp/megafetch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
