@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "megafetch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-megafetch-Debug-24be7c0ae65168092360.json",
+					"jsonFile" : "target-megafetch-Debug-3725ee17b7c1f81f7ec9.json",
 					"name" : "megafetch",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/chuvacek/code/cpp/megafetch/build",
+		"build" : "/home/chuvacek/code/cpp/megafetch/cmake-build-debug",
 		"source" : "/home/chuvacek/code/cpp/megafetch"
 	},
 	"version" : 

@@ -8,7 +8,6 @@
 # 1 "/home/chuvacek/code/cpp/megafetch/src/modules/../modules.h" 1
 
 
-
 # 1 "/usr/include/c++/14.2.1/string" 1 3
 # 36 "/usr/include/c++/14.2.1/string" 3
        
@@ -31909,12 +31908,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 5 "/home/chuvacek/code/cpp/megafetch/src/modules/../modules.h" 2
+# 4 "/home/chuvacek/code/cpp/megafetch/src/modules/../modules.h" 2
 
-# 5 "/home/chuvacek/code/cpp/megafetch/src/modules/../modules.h"
+# 4 "/home/chuvacek/code/cpp/megafetch/src/modules/../modules.h"
 std::string cpu_info();
 unsigned int cores();
 std::string ram_info();
+std::string hostname();
+std::string user();
+std::string get_distro();
+std::string get_res();
 # 2 "/home/chuvacek/code/cpp/megafetch/src/modules/cpuinfo.cpp" 2
 # 1 "/usr/include/c++/14.2.1/fstream" 1 3
 # 36 "/usr/include/c++/14.2.1/fstream" 3

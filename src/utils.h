@@ -2,6 +2,8 @@
 #define UTILS_H
 #include <string>
 
-std::string execCommand(const char* cmd);
+std::string execCommand(std::string cmd);
 double round_to_hundredth(double val);
+
+
 #endif

@@ -11,4 +11,8 @@ add_executable(megafetch main.cpp
         src/utils.h
         src/print.h
         src/print.cpp
+        src/modules/linux.cpp
+        src/utils/utils.cpp
+        src/modules/system.cpp
+        src/modules/screen.cpp
 )

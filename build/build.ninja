@@ -124,7 +124,52 @@ build CMakeFiles/megafetch.dir/src/print.cpp.o: CXX_COMPILER__megafetch_scanned_
   OBJECT_FILE_DIR = CMakeFiles/megafetch.dir/src
   dyndep = CMakeFiles/megafetch.dir/CXX.dd
 
-build CMakeFiles/megafetch.dir/CXX.dd | /home/chuvacek/code/cpp/megafetch/build/CMakeFiles/megafetch.dir/CXXModules.json CMakeFiles/megafetch.dir/main.cpp.o.modmap CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.modmap CMakeFiles/megafetch.dir/src/print.cpp.o.modmap: CXX_DYNDEP__megafetch_Debug CMakeFiles/megafetch.dir/main.cpp.o.ddi CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.ddi CMakeFiles/megafetch.dir/src/print.cpp.o.ddi | /home/chuvacek/code/cpp/megafetch/build/CMakeFiles/megafetch.dir/CXXDependInfo.json
+build CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.ddi: CXX_SCAN__megafetch_Debug /home/chuvacek/code/cpp/megafetch/src/modules/linux.cpp || cmake_object_order_depends_target_megafetch
+  DEP_FILE = CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.ddi
+  FLAGS = -g -std=gnu++20
+  OBJ_FILE = CMakeFiles/megafetch.dir/src/modules/linux.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.ddi.i
+
+build CMakeFiles/megafetch.dir/src/modules/linux.cpp.o: CXX_COMPILER__megafetch_scanned_Debug /home/chuvacek/code/cpp/megafetch/src/modules/linux.cpp | CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.modmap || cmake_object_order_depends_target_megafetch CMakeFiles/megafetch.dir/CXX.dd
+  DEP_FILE = CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.modmap
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/megafetch.dir
+  OBJECT_FILE_DIR = CMakeFiles/megafetch.dir/src/modules
+  dyndep = CMakeFiles/megafetch.dir/CXX.dd
+
+build CMakeFiles/megafetch.dir/src/modules/system.cpp.o.ddi: CXX_SCAN__megafetch_Debug /home/chuvacek/code/cpp/megafetch/src/modules/system.cpp || cmake_object_order_depends_target_megafetch
+  DEP_FILE = CMakeFiles/megafetch.dir/src/modules/system.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/megafetch.dir/src/modules/system.cpp.o.ddi
+  FLAGS = -g -std=gnu++20
+  OBJ_FILE = CMakeFiles/megafetch.dir/src/modules/system.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/megafetch.dir/src/modules/system.cpp.o.ddi.i
+
+build CMakeFiles/megafetch.dir/src/modules/system.cpp.o: CXX_COMPILER__megafetch_scanned_Debug /home/chuvacek/code/cpp/megafetch/src/modules/system.cpp | CMakeFiles/megafetch.dir/src/modules/system.cpp.o.modmap || cmake_object_order_depends_target_megafetch CMakeFiles/megafetch.dir/CXX.dd
+  DEP_FILE = CMakeFiles/megafetch.dir/src/modules/system.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/megafetch.dir/src/modules/system.cpp.o.modmap
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/megafetch.dir
+  OBJECT_FILE_DIR = CMakeFiles/megafetch.dir/src/modules
+  dyndep = CMakeFiles/megafetch.dir/CXX.dd
+
+build CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.ddi: CXX_SCAN__megafetch_Debug /home/chuvacek/code/cpp/megafetch/src/modules/screen.cpp || cmake_object_order_depends_target_megafetch
+  DEP_FILE = CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.ddi
+  FLAGS = -g -std=gnu++20
+  OBJ_FILE = CMakeFiles/megafetch.dir/src/modules/screen.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.ddi.i
+
+build CMakeFiles/megafetch.dir/src/modules/screen.cpp.o: CXX_COMPILER__megafetch_scanned_Debug /home/chuvacek/code/cpp/megafetch/src/modules/screen.cpp | CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.modmap || cmake_object_order_depends_target_megafetch CMakeFiles/megafetch.dir/CXX.dd
+  DEP_FILE = CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.modmap
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/megafetch.dir
+  OBJECT_FILE_DIR = CMakeFiles/megafetch.dir/src/modules
+  dyndep = CMakeFiles/megafetch.dir/CXX.dd
+
+build CMakeFiles/megafetch.dir/CXX.dd | /home/chuvacek/code/cpp/megafetch/build/CMakeFiles/megafetch.dir/CXXModules.json CMakeFiles/megafetch.dir/main.cpp.o.modmap CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.modmap CMakeFiles/megafetch.dir/src/print.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/system.cpp.o.modmap CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.modmap: CXX_DYNDEP__megafetch_Debug CMakeFiles/megafetch.dir/main.cpp.o.ddi CMakeFiles/megafetch.dir/src/utils/utils.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/ram.cpp.o.ddi CMakeFiles/megafetch.dir/src/print.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/system.cpp.o.ddi CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.ddi | /home/chuvacek/code/cpp/megafetch/build/CMakeFiles/megafetch.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -134,7 +179,7 @@ build CMakeFiles/megafetch.dir/CXX.dd | /home/chuvacek/code/cpp/megafetch/build/
 #############################################
 # Link the executable megafetch
 
-build megafetch: CXX_EXECUTABLE_LINKER__megafetch_Debug CMakeFiles/megafetch.dir/main.cpp.o CMakeFiles/megafetch.dir/src/utils/utils.cpp.o CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o CMakeFiles/megafetch.dir/src/modules/ram.cpp.o CMakeFiles/megafetch.dir/src/print.cpp.o
+build megafetch: CXX_EXECUTABLE_LINKER__megafetch_Debug CMakeFiles/megafetch.dir/main.cpp.o CMakeFiles/megafetch.dir/src/utils/utils.cpp.o CMakeFiles/megafetch.dir/src/modules/cpuinfo.cpp.o CMakeFiles/megafetch.dir/src/modules/ram.cpp.o CMakeFiles/megafetch.dir/src/print.cpp.o CMakeFiles/megafetch.dir/src/modules/linux.cpp.o CMakeFiles/megafetch.dir/src/modules/system.cpp.o CMakeFiles/megafetch.dir/src/modules/screen.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/megafetch.dir
   POST_BUILD = :

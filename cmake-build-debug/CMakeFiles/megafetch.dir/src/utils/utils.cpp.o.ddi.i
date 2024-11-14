@@ -64745,14 +64745,14 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 # 5 "/home/chuvacek/code/cpp/megafetch/src/utils/../utils.h"
-std::string execCommand(const char* cmd);
+std::string execCommand(std::string cmd);
 double round_to_hundredth(double val);
 # 8 "/home/chuvacek/code/cpp/megafetch/src/utils/utils.cpp" 2
 
-std::string execCommand(const char* cmd) {
+std::string execCommand(std::string cmd) {
     std::array<char, 128> buffer;
     std::string result;
-    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd.data(), "r"), pclose);
     if (!pipe) {
         throw std::runtime_error("popen() failed!");
     }

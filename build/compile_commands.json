@@ -28,5 +28,23 @@
   "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/print.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/print.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/print.cpp",
   "file": "/home/chuvacek/code/cpp/megafetch/src/print.cpp",
   "output": "CMakeFiles/megafetch.dir/src/print.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/modules/linux.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/modules/linux.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/modules/linux.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/modules/linux.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/modules/linux.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/modules/system.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/modules/system.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/modules/system.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/modules/system.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/modules/system.cpp.o"
+},
+{
+  "directory": "/home/chuvacek/code/cpp/megafetch/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 @CMakeFiles/megafetch.dir/src/modules/screen.cpp.o.modmap -o CMakeFiles/megafetch.dir/src/modules/screen.cpp.o -c /home/chuvacek/code/cpp/megafetch/src/modules/screen.cpp",
+  "file": "/home/chuvacek/code/cpp/megafetch/src/modules/screen.cpp",
+  "output": "CMakeFiles/megafetch.dir/src/modules/screen.cpp.o"
 }
 ]

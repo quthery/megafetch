@@ -66742,6 +66742,6 @@ namespace __format
 # 4 "/home/chuvacek/code/cpp/megafetch/src/print.cpp"
 using namespace std;
 
-void print(string text, string color) {
-    cout << format("{}{}{}\n", color.c_str(), text.data(), color.data());
+void print(const char* text, string color) {
+    cout << format("{}{}{}\n", color, text, color);
 }

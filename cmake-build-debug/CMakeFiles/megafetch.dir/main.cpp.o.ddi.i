@@ -43313,11 +43313,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-
-# 5 "/home/chuvacek/code/cpp/megafetch/src/modules.h"
+# 4 "/home/chuvacek/code/cpp/megafetch/src/modules.h"
 std::string cpu_info();
 unsigned int cores();
 std::string ram_info();
+std::string hostname();
+std::string user();
+std::string get_distro();
+std::string get_res();
 # 3 "/home/chuvacek/code/cpp/megafetch/main.cpp" 2
 # 1 "/usr/include/c++/14.2.1/format" 1 3
 # 32 "/usr/include/c++/14.2.1/format" 3
@@ -66742,9 +66745,11 @@ namespace __format
 using namespace std;
 
 int main() {
-    std::cout << cpu_info() << std::endl;
-    cout << format("\033[31m processor: {}\033[0m\n", cpu_info());
-    cout << format(" processor cores: {}\n", cores());
-    cout << format(" memory: {}\n", ram_info());
+    cout << format("\033[34m  {}@{} \033[0m\n", user(),hostname());
+    cout << format("\033[31m  processor: {}\033[0m\n", cpu_info());
+    cout << format("\033[32m  processor cores: {}\033[0m\n", cores());
+    cout << format("\033[35m  memory: {}\033[0m\n", ram_info());
+    cout << format("\033[32m  distro: {}\033[0m\n", get_distro());
+    cout << format("\033[36m  resolution: {}\033[0m\n", get_res());
     return 0;
 }

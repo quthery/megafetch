@@ -1,0 +1,9 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/megafetch.dir/src/print.cpp.o"
+    }
+  ],
+  "version": 1
+}
